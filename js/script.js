@@ -24,3 +24,13 @@ $(document).ready(function(){
 		$(this).attr("src", "/images/seo.png");
 	});
 });
+
+$(document).ready(function(){
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $(".navbar").addClass("navbar-fixed-top ");
+    } else {
+      $(".navbar").removeClass("navbar-fixed-top ");
+    }
+  });
+});

@@ -4,14 +4,17 @@
 	box-sizing: border-box;
 }
 
-body{
-	background-color: #f0f;
+header {
+	position: relative;
+	z-index: 1040;
 }
 .tpad {
 	margin-top: 20px;
 }
- 
+
 .logo {
+	position: relative;
+	bottom: 6px;
 	width: 30px; 
 }
 .social-logos {
@@ -26,7 +29,19 @@ body{
 	transition: .6s;
 }
 	
-
+.navbar {
+	min-height: 20px;
+	
+}
+.navbar-fixed 
+{
+	position: fixed;
+	top: 0;
+	z-index: 1040;
+}
+.navbar-brand > img {
+	display: inline-block;
+}
 .nav {
 	border: 1px solid black;
 	border-left: none;
@@ -37,7 +52,7 @@ body{
 .nav li a {
 	line-height: 7px;
 	color: black;
-	 
+	vertical-align: middle;
 }
 .nav li a:hover {
 	color: white;
