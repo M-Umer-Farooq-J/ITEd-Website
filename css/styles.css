@@ -126,20 +126,25 @@ header {
 .col4 {
 	width: 430px;
 }
+.in-tuch {
+  color: #cccccc!important;
+}
 .form-align {
 	margin-top: 5%;
 	margin-bottom: 5%;
 }
 .form-group input[type=text] {
 	width:100%;
-	border: 1px solid #cccccc;
+	border: 1px solid #cccccc; 
+	background-color: transparent;
 	padding: 5%;
 	margin-bottom: -1%;
 }
 
 .form-group textarea {
 	line-height: 1.2;
-	width: 100%;
+	width: 100%; 
+	background-color: transparent;
 	height: 200px;
 	border: 1px solid #cccccc;
 	padding: 5%;
@@ -148,7 +153,8 @@ header {
 .form-group input[type=email] {
 	width:75%;
 	border: 1px solid #cccccc;
-	padding-left: 5%;height: 50px;
+	padding-left: 5%;height: 50px; 
+	background-color: transparent;
 	border-right: none;  
 	margin-top: -6px;
 }
@@ -216,4 +222,75 @@ hr {
   border: 1px solid black;
   color: black;
 }
+
+
+
+
+
+/*portfolio*/
+.portfolio-scroll {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.portfolio-1 {
+  background-color: #cd3f42;
+  height: 700px;
+  width: 100%;
+}
+.portfolio-heading {
+  text-align: center;
+  padding-top: 4%;
+  color: darkgray;
+  opacity: .5;
+}
+.row h1 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+  color: white;
+}
+.row p {
+  color: white;
+  line-height: 1.5;
+  font-size: 18px;
+  opacity: .8
+}
+.row button {
+  margin-top: 3%;
+  background-color: transparent;
+  padding: 4%;
+  width: 35%;
+  border: 4px solid white;
+  color: white;
+  font-size: 18px;
+}
+.protfolio-img {
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-bottom: 15%;
+}
+.portfolio-2 {
+  background-color: #2e3449;
+  height: 700px;
+  width: 100%;
+}
+.portfolio-3 {
+  background-color: #69a565;
+  height: 700px;
+  width: 100%;
+}
+.portfolio-4 {
+  background-color: #715aa9;
+  height: 700px;
+  width: 100%;
+}
+.portfolio-5 {
+  background-color: #0f96f2;
+  height: 900px;
+  width: 100%;
+  margin-top: -5%;
+}
+
+
 
