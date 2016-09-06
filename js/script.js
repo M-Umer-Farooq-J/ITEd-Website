@@ -28,9 +28,12 @@ $(document).ready(function(){
 $(document).ready(function(){
   $(window).scroll(function() {
     if ($(document).scrollTop() > 50) {
-      $(".navbar").addClass("navbar-fixed-top ");
+      $(".navbar").removeClass("navbar").addClass("navbar-default navbar-fixed-top");
+      //$(".navbar").switchClass("navbar", "navbar-default navbar-fixed-top", 1000);
+			
+			
     } else {
-      $(".navbar").removeClass("navbar-fixed-top ");
+      $(".navbar-default").removeClass("navbar-fixed-top navbar-default").addClass("navbar");
     }
   });
 });

@@ -3,10 +3,20 @@
 	margin: 0;
 	box-sizing: border-box;
 }
-body {
-  
-  background-image: url(../images/background.jpg);
+
+  .navbar-fixed-top .navbar-collapse  {
+    padding-right: inherit;
+    padding-left: inherit;
+  }
+
+ 
+.navbar-fixed-top .navbar-brand {
+  margin-left: -15px;
+   
 }
+
+
+
 header {
 	position: relative;
 	z-index: 1040;
@@ -35,14 +45,8 @@ header {
 .navbar {
 	min-height: 20px;
   background-color: transparent;
-	
-}
-.navbar-fixed 
-{
-	position: fixed;
-	top: 0;
-	z-index: 1040;
-}
+	}
+
 .navbar-brand > img {
 	display: inline-block;
 }
@@ -229,12 +233,6 @@ hr {
 
 
 /*portfolio*/
-.portfolio-scroll {
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  position: relative;
-}
 .portfolio-1 {
   background-color: #cd3f42;
   height: 700px;
@@ -246,18 +244,18 @@ hr {
   color: darkgray;
   opacity: .5;
 }
-.row h1 {
+.heading {
   margin-top: 2%;
   margin-bottom: 5%;
   color: white;
 }
-.row p {
+.paragraph {
   color: white;
   line-height: 1.5;
   font-size: 18px;
   opacity: .8
 }
-.row button {
+.port-btn {
   margin-top: 3%;
   background-color: transparent;
   padding: 4%;
@@ -273,6 +271,7 @@ hr {
 }
 .portfolio-2 {
   background-color: #2e3449;
+	color: white;
   height: 700px;
   width: 100%;
 }
@@ -294,32 +293,25 @@ hr {
 }
 
 
-
-
 /* portfolio-Detail*/
-.web-name {
-  background-image: url(../images/service.png);
-  width: 100%;
-  height: 500px;   
+.pf-mv-intro {
+	background: #E9E6DF url(../images/app.png); 
+	background-size: 50%;
+	background-repeat: no-repeat;
+	padding: 3% 0;
 }
-.web-name h1 {
-  padding: 10%;
-  color: #cd3f42;
+
+.pf-head, .pf-text {
+	color: black !important;
 }
-.bg-section {
-  //background-image: url(../images/b1.png);
+.red-bg {
   background-color: #cd3f42;
-  width: 100%;
-  height: 700px;
 }
 .img-align {
   margin-top: -95%;
   box-shadow: 8px 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
-.web-content p {
-  margin-top: 35%;
-  line-height: 1.5;
-}
+ 
 
 
 
