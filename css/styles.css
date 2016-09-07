@@ -265,9 +265,10 @@ hr {
   font-size: 18px;
 }
 .protfolio-img {
-  margin-top: 15%;
+  margin-top: 5%;
   margin-left: 15%;
   margin-bottom: 15%;
+  background-color: transparent;
 }
 .portfolio-2 {
   background-color: #2e3449;
@@ -286,10 +287,18 @@ hr {
   width: 100%;
 }
 .portfolio-5 {
-  background-color: #0f96f2;
+  background-color: white;
   height: 900px;
   width: 100%;
   margin-top: -5%;
+}
+.in-tuch {
+  margin-top: 2%;
+  margin-bottom: 4%;
+}
+.text-message {
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 
@@ -312,8 +321,27 @@ hr {
   box-shadow: 8px 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
  
+/*Mountains*/
+.pf-mountain-intro {
+  background: url(../images/Mountain.jpg);
+	background-size: 50%;
+	background-repeat: no-repeat;
+	padding: 3% 0;
+}
 
-
+.pf-head, .pf-text {
+	color: black !important;
+}
+.blue-bg {
+  background-color: #2e3449;
+}
+.img-align {
+  margin-top: -95%;
+  box-shadow: 8px 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.pre-color {
+  color: white;
+}
 
 
 
