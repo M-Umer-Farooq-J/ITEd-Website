@@ -1,7 +1,19 @@
 * {
+	
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
+}
+.main-section {
+	background: url("../images/texture_pattern_light_background_gradient_ultra_3840x2160_hd-wallpaper-238406.jpg") 	;
+	background-size: cover;
+	background-position: center center;
+}
+.about-section {
+	background: url("../images//blue-gray-and-pictures-1st.jpg");
+}
+.services-section {
+	background-color: #FBFAFB;
 }
 section{
 	padding: 40px 0;
@@ -9,11 +21,32 @@ section{
 .sec-head{
 	padding: 30px 0;
 	font-weight: bold;
+	font-family: 'PT Serif', serif;
 }
 
 .navbar-fixed-top .navbar-collapse {
 	padding-right: inherit;
 	padding-left: inherit;
+}
+.navbar-default {
+	background-color: #FE4444;
+}
+.navbar-default .navbar-brand {
+	color: black;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: white;
+}
+.navbar-default button {
+	color: white;
+	font-weight: 500;
+	font-size: 110%;
 }
 
 a:link{
@@ -29,9 +62,20 @@ a:active{}
 .navbar-fixed-top .navbar-brand {
 	margin-left: -15px;
 }
+.services-head {
+font-family: 'PT Serif', serif;	
+	font-size: 24px;
+	font-weight: 400;
+}
+.services-text {
+	font-family: 'Abel', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+}
 .services-links:link, .services-text{
 	text-align: center;
 	color: black;
+	
 }
 
 .services-links{
@@ -43,10 +87,14 @@ a:active{}
 }
 
 .about-sec-text {
-	font-size: 115%;
+	font-size: 125%;
 	line-height: 1.25;
+	font-family: 'Abel', sans-serif;
+	font-weight: 500;
 }
-
+.lead {
+	font-family: 'Abel', sans-serif;
+}
 .logo-text {
 	color: black;
 	font-size: 150%;
@@ -85,16 +133,22 @@ header {
 	min-height: 20px;
 	background-color: transparent;
 }
+.navbar-brand {
+	font-family: 'Lobster';
+}
 
 .navbar-brand > img {
 	display: inline-block;
 }
 
-.logo-red{color:#E60825;}
+.logo-red{
+	color:#fff;
+font-family: 'Lobster', cursive;
+}
 
 .nav {
 	margin-top: 5px;
-	border: 2px solid #c0c0c0;
+	border: 2px solid black;
 	border-left: none;
 	border-right: none;
 }
@@ -103,6 +157,7 @@ header {
 	line-height: 7px;
 	vertical-align: middle;
 	color: black;
+	font-family: 'Tillana', cursive;
 }
 
 .nav-head li a:hover {
@@ -119,6 +174,7 @@ header {
 	padding: 8px 15px;
 	margin-left: 40px;
 	background-color: transparent;
+	font-family: 'Tillana', cursive;
 	
 }
 
@@ -378,8 +434,11 @@ hr {
 	color: white;
 }
 
-footer{
-	
+.address h4, .address address, .address p {
+	font-family: 'Tillana', cursive;
+	font-weight: 400;
 }
-
+.about-content-bg {
+	  background-color:rgba(255,255,255,.3);
+}
 
