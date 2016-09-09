@@ -441,4 +441,27 @@ hr {
 .about-content-bg {
 	  background-color:rgba(255,255,255,.3);
 }
+footer {
+	background-color: #FE4444;
+}
+.footer-mtop {
+	margin-top: 20px;
+}
+.footer-mtop address {
+	color: rgba(255,255,255,.9);
+}
+.social-footer a {
+	
+font-size: 140%;
+padding: 0 10px;
+}
+.social-footer a i{
+	color:rgba(255,255,255,.9) ;
+	
+}
+.social-footer a i:hover{
+	color:rgba(0,0,0,.6) ;
+	transition: .6s;
+	
+}
 
