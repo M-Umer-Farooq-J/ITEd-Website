@@ -21,9 +21,8 @@ $(document).ready(function(){
 	});
 	
   $(window).scroll(function() {
-    if ($(document).scrollTop() > 50) {
+    if ($(document).scrollTop() > 40) {
       $(".navbar").removeClass("navbar").addClass("navbar-default animated slideInDown navbar-fixed-top");
-      //$(".navbar").switchClass("navbar", "navbar-default navbar-fixed-top", 1000);
     } else {
       $(".navbar-default").removeClass("navbar-fixed-top animated slideInDown navbar-default").addClass("navbar");
     }

@@ -1,3 +1,18 @@
+.services-bg {
+	background: #000;
+	color: #fff;
+}
+
+.container-fluid h1 {
+	margin-bottom: 5%;
+	margin-left: 3%;
+}
+
+.container-fluid p {
+	font-size: 18px;
+	margin-left: 3%;
+}
+
 
 .btn-hire {
 	height: 7%;
